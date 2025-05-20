@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Happy Birthday Alvina!</title>
+        <link rel="stylesheet" href="styles.css" />
+
+          <!-- External Libraries -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+              <script src="https://cdn.jsdelivr.net/npm/fireworks-js@2.9.5/dist/index.umd.min.js"></script>
+                <script src="script.js" defer></script>
+                </head>
+                <body>
+                  <div class="container">
+                      <!-- Page 1: Intro -->
+                          <div class="page active" id="introPage">
+                                <h1 class="fade-in">Happy Birthday, My Dear Alvina! ❤️</h1>
+                                      <p class="slide-up">
+                                              On this special day, I just want to remind you how amazing, beautiful,
+                                                      and incredibly special you are. 💖
+                                                            </p>
+                                                                  <button onclick="nextPage('letterPage')">Read a Love Letter 💌</button>
+                                                                      </div>
+
+                                                                          <!-- Page 2: Letter -->
+                                                                              <div class="page" id="letterPage">
+                                                                                    <h1 class="fade-in">My Dearest Alvina,</h1>
+                                                                                          <p class="slide-up">
+                                                                                                  You light up my world like no one else. Your smile is my sunshine, your
+                                                                                                          laughter is my favorite melody. Today is not just your birthday, it's a
+                                                                                                                  celebration of the most wonderful soul in my life. 💕
+                                                                                                                        </p>
+                                                                                                                              <button onclick="nextPage('cakePage')">Time to Cut the Cake 🎂</button>
+                                                                                                                                  </div>
+
+                                                                                                                                      <!-- Page 3: Cake -->
+                                                                                                                                          <div class="page" id="cakePage">
+                                                                                                                                                <h1 class="fade-in">Let's Cut the Cake Together! 🎂✨</h1>
+                                                                                                                                                      <div class="cake-container">
+                                                                                                                                                              <div class="cake" id="cake"></div>
+                                                                                                                                                                      <div class="knife" id="knife"></div>
+                                                                                                                                                                            </div>
+                                                                                                                                                                                  <button onclick="nextPage('fireworksPage')">A Little Surprise for You 🎆</button>
+                                                                                                                                                                                      </div>
+
+                                                                                                                                                                                          <!-- Page 4: Fireworks -->
+                                                                                                                                                                                              <div class="page" id="fireworksPage">
+                                                                                                                                                                                                    <h1 class="fade-in">Surprise! ✨💖</h1>
+                                                                                                                                                                                                          <p class="slide-up">
+                                                                                                                                                                                                                  Because you deserve all the love, joy, and happiness in the world! 🎇
+                                                                                                                                                                                                                        </p>
+                                                                                                                                                                                                                              <div class="fireworks"></div>
+                                                                                                                                                                                                                                  </div>
+                                                                                                                                                                                                                                    </div>
+
+                                                                                                                                                                                                                                      <!-- Background Music -->
+                                                                                                                                                                                                                                        <audio autoplay loop>
+                                                                                                                                                                                                                                            <source src="https://www.bensound.com/bensound-music/bensound-love.mp3" type="audio/mpeg" />
+                                                                                                                                                                                                                                                Your browser does not support the audio element.
+                                                                                                                                                                                                                                                  </audio>
+                                                                                                                                                                                                                                                  </body>
+                                                                                                                                                                                                                                                  </html>
